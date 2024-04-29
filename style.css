@@ -24,14 +24,16 @@ html {
   border-radius: 10px;
   padding: 10px;
   box-shadow: 5px 5px 5px black;
-  top: 80%;
-  height: 1000px;
+  top: 82%;
+  height: 800px;
   width: 32%;
 }
 .tab1:hover{
   transition: 2s;
   top:20%;
   margin-right:80%;
+  background-color: #b51a00;
+  color: white;
 }
 .tab2{
   position: absolute;
@@ -42,15 +44,17 @@ html {
   border-radius: 10px;
   padding: 10px;
   box-shadow: 5px 5px 5px black;
-  top: 80%;
+  top: 82%;
   left: 35%;
-  height: 1000px;
+  height: 800px;
   width: 31%;
 }
 .tab2:hover{
   transition: 2s;
   top:20%;
   margin-right:80%;
+  background-color: #b51a00;
+  color: white;
 }
 .tab3{
   position: absolute;
@@ -61,22 +65,24 @@ html {
   border-radius: 10px;
   padding: 10px;
   box-shadow: 5px 5px 5px black;
-  top: 80%;
+  top: 82%;
   left: 68%;
-  height: 1000px;
+  height: 800px;
   width: 30%;
 }
 .tab3:hover{
   transition: 2s;
   top:20%;
   margin-right:80%;
+  background-color: #b51a00;
+  color: white;
 }
 
 .image2{
   position: absolute;
   border: 3px solid black;
   top: 100%;
-  size: 120%;
+  size: auto;
 }
 
 .social-media{
@@ -97,6 +103,7 @@ html {
 -webkit-transform: scale(1.1,1.1);
 transform: scale(1.1,1.1);
 transition: 1s;
+color: #b51a00;
 }
 .FB{
   color: #0061fe;
@@ -105,6 +112,7 @@ transition: 1s;
 -webkit-transform: scale(1.1,1.1);
 transform: scale(1.1,1.1);
 transition: 1s;
+color: #b51a00;
 }
 .button {
   margin-left:15%;
@@ -120,6 +128,7 @@ transition: 1s;
   cursor: pointer;
   transform: scale(1.1,1.1);
   transition: 1s;
+  background-color: lightgrey;
 }
 .b2 {
   margin-left:5%;
@@ -129,6 +138,7 @@ transition: 1s;
   cursor: pointer;
   transform: scale(1.1,1.1);
   transition: 1s;
+  background-color: lightgrey;
 }
 
 .b3 {
@@ -139,6 +149,7 @@ transition: 1s;
   cursor: pointer;
   transform: scale(1.1,1.1);
   transition: 1s;
+  background-color: lightgrey;
 }
 .b4 {
   margin-left:5%;
@@ -148,6 +159,7 @@ transition: 1s;
   cursor: pointer;
   transform: scale(1.1,1.1);
   transition: 1s;
+  background-color: lightgrey;
 }
 .b5 {
   margin-left:5%;
@@ -157,15 +169,16 @@ transition: 1s;
   cursor: pointer;
   transform: scale(1.1,1.1);
   transition: 1s;
+  background-color: lightgrey; 
 }
 
 
 .items {
   position: absolute;
-  top: 10%; 
+  top: 5%; 
   left: 45%; 
   width: 600px; 
-  height: 400px;
+  height: auto;
   border: 5px solid black;
   
 }
